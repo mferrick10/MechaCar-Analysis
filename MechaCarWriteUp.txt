@@ -1,0 +1,32 @@
+MPG Regression
+
+Using a correlation matrix, I determined that two variables had a weak and moderate correlation to MPG. Those two variables were vehicle length and ground clearance. The remaining variables vehicle weight, spoiler angle, and AWD had no or weak correlation to MPG. I conducted a multiple linear regression test and the results confirmed there is a significant linear relationship between MPG and vehicle length/ ground clearance. While comparing the five independnt variables to MPG, the p-value of the multiple linear regression test is lower than my significe level of .05 with an r^2 value or coefficent of determination is .7149 and I will reject the null hypothesis. This means that future data points added to the model will have a strong chance of fitting the model and making the model more likely to predict future MPG of MechaCar prototypes and the slope of the model is non-zero. The y-intercept is statistically significant which means that there are still unaccounted varaibles that contribute to the varaition in MPG of each MechaCar prototype.
+
+Suspension Coil Summary
+
+The average or mean of all MechaCar's PSI is 1499 with a standard deviation of of 7.89. 68% of the data falls within one standard variation(7.89) of our mean(1499).Our median for the data is 1500 so it is only 1psi from the average. The varaince is 62.3 which is less than the 100 psi that managment wanted. Each cars PSI is roughly 62psi from the mean and there is moderate variation in the data. In conclusion the current design for the suspension coils meets the design specifications with none to few outliers impacting the data. 
+
+Suspension Coil T-Test
+
+I decided to use a one-sample t-test since we are trying to determine the difference between the mean of a sample set and the potential population dataset. With our significance level being .05 and our p-valye being above that level, I would state we do not have sufficent evidence to reject the null hypothesis. In conclusion the two means are statistically similar.
+
+Personal Study
+
+For my independengt study I would choose to compare the MechaCar to other comparable supercars on the market(Ferrarim, Porsche, Nissan's GTO, etc). I would compare these models based on performacne and price. Performance would be measured by its qsec time, fuel efficency,horsepower, engine size(displacement and cylinders), and torque. Cost would be based on the total price vs its performance. 
+
+Does the MechaCar have a faster qsec time to its competitors?
+
+Does the MechaCar get better gas mileage than its competitors?
+
+Overall is the MechaCar the superior car for its price compared to its compititors?
+
+Two Sample T-Test
+
+  null hypothesis = The difference between our paired observations is equal to zero
+  alternate hypothesis = The difference between our paired observations is not equal to zero
+
+We already have most of the data for the MechaCar data, but we would still need a few of the metrics I mentioned above to compare it to other comparable cars on the market. I would need to gather all relavent car models comparable to the MechCar and create a seperate population from that using the same selected metrics. I would need to do a couple of two sample T-Tests for the various questions. Then depending on what hypothesis is selected I would need to visualize the results to determine whether or not the MechCar prototype is superirior to its competitor(Most likely a box plot and scatter plot because it'll be easier to visualoize the differences between the cars).
+
+
+
+What should be collected for the Study?
